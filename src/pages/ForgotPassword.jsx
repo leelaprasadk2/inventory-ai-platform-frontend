@@ -26,7 +26,7 @@ const res=
 
 await API.post(
 
-"/auth/forgot-password",
+"api/auth/forgot-password",
 
 {
 

@@ -70,7 +70,7 @@ function Login() {
       const res=
       await API.post(
 
-        "/auth/login",
+        "api//auth/login",
 
         formData
 
@@ -151,7 +151,7 @@ function Login() {
 
       await API.post(
 
-        "/auth/google",
+        "api/auth/google",
 
         {
 

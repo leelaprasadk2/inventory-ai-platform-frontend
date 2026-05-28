@@ -1,7 +1,9 @@
 import axios from "axios";
 
 const API =
-import.meta.env.VITE_API_URL
+  import.meta.env.VITE_API_URL;
+
+
 // =========================
 // GET PROFILE
 // =========================
@@ -17,7 +19,7 @@ export const getProfile =
     const response =
       await axios.get(
 
-        `${API}/profile`,
+        `${API}/api/users/profile`,
 
         {
           headers: {
@@ -30,6 +32,7 @@ export const getProfile =
 
     return response.data;
   };
+
 
 // =========================
 // UPDATE PROFILE
@@ -46,7 +49,7 @@ export const updateProfile =
     const response =
       await axios.put(
 
-        `${API}/profile`,
+        `${API}/api/users/profile`,
 
         formData,
 
