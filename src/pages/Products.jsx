@@ -214,8 +214,7 @@ function Products() {
         const response =
           await fetch(
 
-            "http://localhost:5000/api/upload/csv",
-
+import.meta.env.VITE_API_URL,
             {
 
               method: "POST",
