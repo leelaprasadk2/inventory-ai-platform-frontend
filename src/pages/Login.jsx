@@ -70,7 +70,7 @@ function Login() {
       const res=
       await API.post(
 
-        "api//auth/login",
+        "api/auth/login",
 
         formData
 
