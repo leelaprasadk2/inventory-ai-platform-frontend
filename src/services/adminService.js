@@ -23,7 +23,7 @@ export const getUsers =
     const response =
       await axios.get(
 
-        `${API}/users`,
+        `${API}/admin/users`,
 
         {
 
@@ -51,7 +51,7 @@ export const removeUser =
     const response =
       await axios.delete(
 
-        `${API}/users/${id}`,
+        `${API}/admin/users/${id}`,
 
         {
 
@@ -81,7 +81,7 @@ export const downloadProducts =
     const response =
       await axios.get(
 
-        `${API}/users/${userId}/products`,
+        `${API}/admin/users/${userId}/products`,
 
         {
 
