@@ -151,7 +151,7 @@ function Campaigns() {
       const response =
       await axios.post(
 
-         import.meta.env.VITE_API_URL,
+`${import.meta.env.VITE_API_URL}/translate`,
 
 
         {
