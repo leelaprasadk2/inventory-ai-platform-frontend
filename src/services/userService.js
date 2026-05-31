@@ -19,7 +19,7 @@ export const getProfile =
     const response =
       await axios.get(
 
-        `${API}/api/users/profile`,
+        `${API}/users/profile`,
 
         {
           headers: {
@@ -49,7 +49,7 @@ export const updateProfile =
     const response =
       await axios.put(
 
-        `${API}/api/users/profile`,
+        `${API}/users/profile`,
 
         formData,
 
