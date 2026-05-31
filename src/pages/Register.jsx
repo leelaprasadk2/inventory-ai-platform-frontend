@@ -63,7 +63,7 @@ function Register() {
       const res =
       await API.post(
 
-        "/api/auth/register",
+        "/auth/register",
 
         formData
 
