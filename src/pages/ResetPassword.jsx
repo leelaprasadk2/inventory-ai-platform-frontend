@@ -59,7 +59,7 @@ res.data.message
 
 setTimeout(()=>{
 
-navigate("/");
+navigate("/login");
 
 },1500);
 

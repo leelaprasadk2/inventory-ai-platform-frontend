@@ -55,7 +55,7 @@ toast.success(
 
 setTimeout(()=>{
 
-navigate("/");
+navigate("/login");
 
 },3000);
 
